@@ -11,9 +11,7 @@ public class Service {
 
 	private GenesysCloud genesysCloud = new GenesysCloud();
 
-	// Añadimos un comentario después de haber hecho un 'git reset --hard HEAD^' (en
-	// Eclipse, dentro del input Reset to (expression), se pone el id. del commit al
-	// que se quiere volver)
+	// Después de haber hecho el git reset [id. commit] añadimos este comentario
 	
 	// Opción 1
 	public List<String> getMembers1(String filter, Consumer<Throwable> throwableHandler) {
