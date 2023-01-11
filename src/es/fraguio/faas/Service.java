@@ -11,6 +11,7 @@ public class Service {
 
 	private GenesysCloud genesysCloud = new GenesysCloud();
 
+	// Vamos a añadir este comentario para después hacer un 'git reset --hard HEAD^'
 	// Opción 1
 	public List<String> getMembers1(String filter, Consumer<Throwable> throwableHandler) {
 		List<String> members = null;
